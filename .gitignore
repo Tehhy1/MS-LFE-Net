@@ -1,0 +1,19 @@
+# macOS
+.DS_Store
+
+# IDE
+.idea/
+.vscode/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# Training artifacts / data (do not commit large outputs)
+log/
+checkpoints/
+*.pth
+*.pt
+*.npy
+*.npz
