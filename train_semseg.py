@@ -1,4 +1,4 @@
-"""矿区语义分割实验训练 / Mine semantic-segmentation experiments (CUDA).
+"""Mine semantic-segmentation experiments (CUDA).
 
 Paper defaults: Adam, batch=8, epochs=100, lr=0.0005, inverse-frequency WCE.
 Inputs: prebuilt 4096-point blocks; split the scene in X (80/20) BEFORE
