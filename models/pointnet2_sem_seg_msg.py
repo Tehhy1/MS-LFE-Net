@@ -1,4 +1,4 @@
-"""PointNet++ MSG + BLT/BGU/BDP; input XYZ is in metres / 输入XYZ使用米。"""
+"""PointNet++ MSG + BLT/BGU/BDP; input XYZ is in metres"""
 from torch import nn
 from torch.nn import functional as F
 from models.pointnet2_utils import PointNetSetAbstractionMsg, PointNetFeaturePropagation
